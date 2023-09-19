@@ -90,7 +90,8 @@ h4 {
 }
 
 header {
-    min-height: 150px;
+    
+    min-width: 100vh;
     font-family:var(--fonte-destaque)
     font-size: 15px ;
     font-weight: 100px;
@@ -99,6 +100,7 @@ header {
     background-image: linear-gradient(to bottom, #89CDA5,
     #5CBE7D, #1A5A37);
     text-align: center;
+    
 }
 
 nav {
