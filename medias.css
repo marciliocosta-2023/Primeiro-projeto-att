@@ -1,8 +1,17 @@
 @charset "UTF-8";
 
 @media screen and (max-width:768px) {
+
+    body > header {
+        padding-bottom: 26px;
+    }
+
+    header > h2#cabeçalho {
+        font-size: 0.9em;
+    }
+
     main > article {
-        width: 380px;
+        width: 70vw;
         margin: auto;
         font-size: 1em;
     }
